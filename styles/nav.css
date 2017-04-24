@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'ostrich-regular';
+  src: url('../fonts/ostrich-regular.ttf');
+}
+
+body {
+  background-color: black;
+  font-family: 'ostrich-regular', Arial, "sans-serif";
+  font-size: 10em;
+}
+
+nav {
+  position: fixed;
+
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    align: center;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    transition: color 1s ease;
+
+}
+
+li a:hover{
+  color: white;
+  border: 5px solid white;
+
+}
+
+#container {
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+
+}
