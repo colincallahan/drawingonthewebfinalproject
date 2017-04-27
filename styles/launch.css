@@ -9,6 +9,12 @@ body {
 }
 
 
+#launch{
+  position: absolute;
+  top: 90%;
+
+}
+
 #wrapper {
   text-align: center;
 }
@@ -17,19 +23,33 @@ body {
 button {
   font-family: 'ostrich-regular', Arial, "sans-serif";
   font-size: 1.5em;
+  background-color: red;
 }
 
 nav {
-  position: fixed;
+  position: static;
 
 }
+
+#launch-vid {
+        position: fixed;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+      }
 
 #spaceship {
   position: absolute;
-  top: 450px;
+  top: 500px;
   left: 450px;
-}
+  animation-direction: forwards;
+  animation-iteration-count: 1;
 
+}
 
 
 @keyframes ship {
@@ -61,7 +81,7 @@ li a {
     display: block;
     color: grey;
     text-align: center;
-    padding: 16px;
+    padding: 2px;
     text-decoration: none;
     transition: color 1s ease;
 
@@ -75,7 +95,7 @@ li a:hover{
 
 
 
-#sky {
+/*#sky {
   width: 100%;
   height: 500px;
   background-color: lightblue;
@@ -86,7 +106,15 @@ li a:hover{
 #earth {
   width: 100%;
   height: 100px;
+  position: absolute;
    background-color: lightgreen;
    z-index:-101;
+
+}*/
+
+#inshuttle{
+  position: absolute;
+  right: 13px;
+  top: 500px;
 
 }
