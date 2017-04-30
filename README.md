@@ -1,4 +1,4 @@
-The overall concept for my project immerged from the idea of finding _seclusion and peace in isolation_. **Space** is the most isolated place humans have gone.  As a music producer, I am inspired by the chaotic and ever changing city that New York is. When I find a place that is calm and I am alone I can translate my experiences into music and I able to create worlds through sound.  I expressed my creative process metaphorical through this project in a playful way.  Today, I’d like to take you on a journey into space.
+**Space** is the most isolated place humans have gone. The overall concept for my project immerged from the idea of finding _seclusion and peace in isolation_.   As a music producer, I am inspired by the chaotic and ever changing city that New York is. When I find a place that is calm and I am alone I can translate my experiences into music and I able to create worlds through sound.  I expressed my creative process metaphorical through this project in a playful way.  Today, I’d like to take you on a journey into space.
 
 One of the unexpected outcomes of this project was the creation of a new musical instrument that can be played on the web.
 
