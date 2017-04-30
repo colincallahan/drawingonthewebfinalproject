@@ -31,16 +31,6 @@ nav {
 
 }
 
-#launch-vid {
-        position: fixed;
-        top: 0;
-        left: 0;
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
-        z-index: -100;
-      }
 
 #spaceship {
   position: absolute;
@@ -54,11 +44,6 @@ nav {
 
 @keyframes ship {
     0% {transform: translate(0px, 0px);}
-    10% {transform: translate(0px, 0px);}
-    20% {transform: translate(0px, 0px);}
-    30% {transform: translate(0px, 0px);}
-    40% {transform: translate(0px, 0px);}
-    50% {transform: translate(0px, 0px);}
     60% {transform: translate(0px, 0px);}
     64% {transform: translate(0px, 0px);}
     100% {transform: translate(0px, -7000px);}
@@ -95,7 +80,7 @@ li a:hover{
 
 
 
-/*#sky {
+#sky {
   width: 100%;
   height: 500px;
   background-color: lightblue;
@@ -105,16 +90,74 @@ li a:hover{
 
 #earth {
   width: 100%;
-  height: 100px;
+  height: 300px;
   position: absolute;
    background-color: lightgreen;
    z-index:-101;
 
-}*/
+}
 
 #inshuttle{
   position: absolute;
   right: 13px;
-  top: 500px;
+  top: 150px;
 
+}
+
+#tree{
+  position: absolute;
+  top: 500px;
+  right: 100px;
+
+}
+
+#sun {
+  position: absolute;
+  top: 200px;
+  right: 1200px;
+  animation: bounce 4s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {transform: translate(0px, 0px);}
+  50% {transform: translate(5px, 5px);}
+  75% {transform: translate(-5px,5px);}
+  100% {transform: translate(0px, 0px);}
+}
+
+#cloud1{
+  position: absolute;
+  top: 200px;
+  right: 700px;
+  animation: bounce2 4s linear;
+}
+
+#cloud2{
+  position: absolute;
+  top: 300px;
+  right: 900px;
+  animation: bounce2 4s linear;
+}
+
+
+#cloud3{
+  position: absolute;
+  top: 300px;
+  right: 500px;
+  animation: bounce2 4s linear;
+}
+
+@keyframes bounce2 {
+  0% {transform: translate(0px, 0px);}
+  50% {transform: translate(0px, 10px);}
+  75% {transform: translate(-10px,10px);}
+  100% {transform: translate(0px, 0px);}
+}
+
+
+#pond{
+  position: absolute;
+  top: 750px;
+  right: 100px;
 }
